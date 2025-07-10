@@ -1,4 +1,4 @@
-![CineColor](starwarsss.png)
+![CineColor](screenshots/starwarsss.png)
 
 ## Cinecolor – Blog sobre Technicolor y cine en color
 
@@ -39,19 +39,19 @@ npm run dev
 ---
 
 
- ![](screen1.png) 
+ ![](screenshots/screen1.png) 
 
 ---
 
- ![](screen2.png) 
+ ![](screenshots/screen2.png) 
 
 ---
 
- ![](screen3.png) 
+ ![](screenshots/screen3.png) 
 
 ---
 
- ![](screen4.png) 
+ ![](screenshots/screen4.png) 
 
 ---
 
