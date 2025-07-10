@@ -11,7 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="es">
       <body className="bg-white text-black font-sans max-w-3xl mx-auto px-4 py-10">
         <header className="mb-10 border-b pb-4">
-          <h1 className="text-3xl font-bold">Cinecolor</h1>
+          <h1 className="text-6xl font-bold">Cinecolor</h1>
           <nav className="mt-2 flex gap-4 text-sm text-gray-600">
             <a href="/">Historia</a>
             <a href="/peliculas">Películas</a>
