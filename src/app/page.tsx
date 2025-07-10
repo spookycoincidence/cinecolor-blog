@@ -1,6 +1,19 @@
+import Image from "next/image";
+
 export default function HomePage() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-10">
+      {/* Imagen justo después del título principal */}
+      <div className="mb-8">
+        <Image
+          src="/img/starwarsss.png"
+          alt="Banner representativo de Cinecolor"
+          width={800}
+          height={400}
+          className="rounded shadow-md"
+        />
+      </div>
+
       <h1 className="text-4xl font-bold mb-6">¿Qué es Technicolor?</h1>
       <p className="mb-4">
         Technicolor fue el sistema de filmación en color más icónico del siglo XX, marcando un antes y un después
@@ -8,6 +21,17 @@ export default function HomePage() {
         la compañía nació de un espíritu técnico innovador (de ahí el "Tech" por el MIT). Su sistema revolucionó
         la forma de ver el cine, combinando precisión científica con una paleta visual nunca antes vista.
       </p>
+
+      {/* Imagen después del texto "¿Qué es Technicolor?" */}
+      <div className="my-8">
+        <Image
+          src="/img/magodeoxheader.png"
+          alt="Mago de oz"
+          width={700}
+          height={400}
+          className="rounded shadow-md"
+        />
+      </div>
 
       <h2 className="text-2xl font-semibold mt-10 mb-2">Evolución del proceso</h2>
       <ul className="list-disc list-inside space-y-2 mb-6">
@@ -26,6 +50,17 @@ export default function HomePage() {
       <p className="mb-4">
         Otras películas emblemáticas incluyen <em>Gone with the Wind</em>, <em>Robin Hood</em>, <em>Fantasía</em>, <em>Niágara</em> y <em>Vertigo</em>.
       </p>
+
+      {/* Imagen extra que puede ir en el medio para equilibrio visual */}
+      <div className="my-10">
+        <Image
+          src="/img/starwarss.png"
+          alt="StarWars"
+          width={750}
+          height={420}
+          className="rounded shadow-md"
+        />
+      </div>
 
       <h2 className="text-2xl font-semibold mt-10 mb-2">Technicolor como lenguaje visual</h2>
       <p className="mb-4">
