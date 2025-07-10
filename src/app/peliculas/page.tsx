@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const peliculas = [
   {
     title: "El mago de Oz",
@@ -44,9 +46,19 @@ export default function PeliculasPage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {peliculas.map(({ title, year, director, image }) => (
           <div key={title} className="bg-white shadow rounded overflow-hidden group">
-            <img src={image} alt={title} className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" />
+            <div className="relative w-full h-64">
+              <Image
+                src={image}
+                alt={title}
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-300 rounded"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              />
+            </div>
             <div className="p-4">
-              <h3 className="font-semibold text-lg">{title} <span className="text-gray-500 text-sm">({year})</span></h3>
+              <h3 className="font-semibold text-lg">
+                {title} <span className="text-gray-500 text-sm">({year})</span>
+              </h3>
               <p className="text-sm text-gray-600 mt-1">Dir: {director}</p>
             </div>
           </div>

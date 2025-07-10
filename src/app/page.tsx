@@ -18,7 +18,7 @@ export default function HomePage() {
       <p className="mb-4">
         Technicolor fue el sistema de filmación en color más icónico del siglo XX, marcando un antes y un después
         en la historia del cine. Fundada en 1914 por Herbert Kalmus, Daniel Comstock y W. Burton Wescott,
-        la compañía nació de un espíritu técnico innovador (de ahí el "Tech" por el MIT). Su sistema revolucionó
+        la compañía nació de un espíritu técnico innovador (de ahí el &apos;Tech&apos; por el MIT). Su sistema revolucionó
         la forma de ver el cine, combinando precisión científica con una paleta visual nunca antes vista.
       </p>
 
@@ -38,7 +38,7 @@ export default function HomePage() {
         <li><strong>Proceso 1 (1917):</strong> combinaba dos filtros (rojo y verde) mediante prismas. Solo se produjo una película: <em>The Gulf Between</em>.</li>
         <li><strong>Proceso 2 (1922):</strong> impresión sustractiva, sin proyectores especiales.</li>
         <li><strong>Proceso 3 (1928):</strong> matrices de gelatina y tintes para más estabilidad.</li>
-        <li><strong>Proceso 4 (1932):</strong> el "three-strip Technicolor" capturaba rojo, verde y azul con calidad superior.</li>
+        <li><strong>Proceso 4 (1932):</strong> el &apos;three-strip Technicolor&apos; capturaba rojo, verde y azul con calidad superior.</li>
       </ul>
 
       <h2 className="text-2xl font-semibold mt-10 mb-2">Impacto estético</h2>
@@ -64,7 +64,7 @@ export default function HomePage() {
 
       <h2 className="text-2xl font-semibold mt-10 mb-2">Technicolor como lenguaje visual</h2>
       <p className="mb-4">
-        Natalie Kalmus, supervisora de color, indicaba en su guía "Color Consciousness" que cada color tenía una carga simbólica:
+        Natalie Kalmus, supervisora de color, indicaba en su guía &apos;Color Consciousness&apos; que cada color tenía una carga simbólica:
       </p>
       <ul className="list-disc list-inside space-y-2 mb-6">
         <li><strong>Rojo:</strong> pasión, poder</li>

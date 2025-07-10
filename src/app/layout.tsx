@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Cinecolor",
@@ -13,9 +14,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="mb-10 border-b pb-4">
           <h1 className="text-6xl font-bold">Cinecolor</h1>
           <nav className="mt-2 flex gap-4 text-sm text-gray-600">
-            <a href="/">Historia</a>
-            <a href="/peliculas">Películas</a>
-            <a href="/curiosidades">Curiosidades</a>
+            <Link href="/">Historia</Link>
+            <Link href="/peliculas">Películas</Link>
+            <Link href="/curiosidades">Curiosidades</Link>
           </nav>
         </header>
         <main>{children}</main>
@@ -26,3 +27,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+
