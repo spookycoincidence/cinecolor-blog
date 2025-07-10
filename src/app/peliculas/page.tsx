@@ -3,37 +3,37 @@ const peliculas = [
     title: "El mago de Oz",
     year: 1939,
     director: "Victor Fleming",
-    image: "/img/oz.jpg",
+    image: "/img/elmagodeoz2.jpg",
   },
   {
     title: "Las aventuras de Robin Hood",
     year: 1938,
     director: "Michael Curtiz, William Keighley",
-    image: "/img/robinhood.jpg",
+    image: "/img/robinhood1.jpg",
   },
   {
     title: "Fantasía",
     year: 1940,
     director: "Varios",
-    image: "/img/fantasia.jpg",
+    image: "/img/fantasiadisney2.jpg",
   },
   {
     title: "Niágara",
     year: 1953,
     director: "Henry Hathaway",
-    image: "/img/niagara.jpg",
+    image: "/img/niagara1.jpg",
   },
   {
     title: "Vértigo",
     year: 1958,
     director: "Alfred Hitchcock",
-    image: "/img/vertigo.jpg",
+    image: "/img/vertigo3.jpg",
   },
   {
     title: "Star Wars: Episodio IV",
     year: 1977,
     director: "George Lucas",
-    image: "/img/starwars.jpg",
+    image: "/img/starwars22.jpg",
   },
 ];
 
